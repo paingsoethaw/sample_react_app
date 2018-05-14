@@ -49,7 +49,7 @@ const element = React.createElement(
 //   }
 // };
 
-ReactDOM.render(printElement(element),
+ReactDOM.render(element,
   document.getElementById('root')
 );
 
